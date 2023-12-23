@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CodeAnalyzer": {
+      "commandName": "Project",
+      "commandLineArgs": "D://test.java"
+    }
+  }
+}

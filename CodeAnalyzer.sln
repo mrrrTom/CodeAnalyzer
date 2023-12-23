@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeAnalyzer", "CodeAnalyzer\CodeAnalyzer.csproj", "{15CBE289-6BC2-474C-91D5-BEADF816B2DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parser", "Parser\Parser.csproj", "{959734C7-8845-48AE-9F71-0AF2CB47EF89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{92DE2980-E6F5-4266-8904-9477FB609A19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15CBE289-6BC2-474C-91D5-BEADF816B2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15CBE289-6BC2-474C-91D5-BEADF816B2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15CBE289-6BC2-474C-91D5-BEADF816B2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15CBE289-6BC2-474C-91D5-BEADF816B2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959734C7-8845-48AE-9F71-0AF2CB47EF89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959734C7-8845-48AE-9F71-0AF2CB47EF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959734C7-8845-48AE-9F71-0AF2CB47EF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959734C7-8845-48AE-9F71-0AF2CB47EF89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92DE2980-E6F5-4266-8904-9477FB609A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92DE2980-E6F5-4266-8904-9477FB609A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92DE2980-E6F5-4266-8904-9477FB609A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92DE2980-E6F5-4266-8904-9477FB609A19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97F5633E-0255-4162-93CA-22481C238EB3}
+	EndGlobalSection
+EndGlobal
