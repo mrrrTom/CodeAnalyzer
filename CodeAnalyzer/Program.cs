@@ -1,8 +1,9 @@
-﻿using CodeAnalyzer.Analyzer;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+
+using CodeAnalyzer.Analyzer;
 using CodeAnalyzer.Parser;
 using Parser;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 
 namespace CodeAnalyzer
 {

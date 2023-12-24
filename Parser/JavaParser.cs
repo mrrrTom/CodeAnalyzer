@@ -1,9 +1,7 @@
-﻿using Antlr4.Runtime.Tree;
-using Antlr4.Runtime;
+﻿using Antlr4.Runtime;
+using Antlr4.Runtime.Tree;
+
 using CodeAnalyzer.Parser;
-using System.IO;
-using System.Linq;
-using static Java8Parser;
 
 namespace Parser
 {

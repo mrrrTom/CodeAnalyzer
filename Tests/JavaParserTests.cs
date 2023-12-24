@@ -1,4 +1,3 @@
-using CodeAnalyzer.Analyzer;
 using Parser;
 
 namespace Tests
