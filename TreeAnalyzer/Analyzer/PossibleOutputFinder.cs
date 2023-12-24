@@ -1,4 +1,5 @@
 ﻿using Parser;
+using System.Diagnostics.CodeAnalysis;
 
 namespace CodeAnalyzer.Analyzer
 {
@@ -6,6 +7,8 @@ namespace CodeAnalyzer.Analyzer
     {
         public override string GetAnalyzationResult(IUASTNode tree)
         {
+            if (tree == null) return string.Empty;
+
             var res = new List<int>();
             CollectAssignments(tree, res);
             var outputResult = "[";
@@ -26,8 +29,7 @@ namespace CodeAnalyzer.Analyzer
             {
                 if (child.GetNodeType() == NodeType.VarAssignment)
                 {
-                    curResult = new List<int>();
-                    curResult.Add(((VarIntAssignment)child).GetValue());
+                    curResult = new List<int> { ((VarIntAssignment)child).GetValue() };
                 }
                 else
                 {

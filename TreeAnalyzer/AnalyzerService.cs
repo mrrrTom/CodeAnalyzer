@@ -20,6 +20,8 @@ namespace CodeAnalyzer
         /// <param name="filePath">Path to the code file to parse</param>
         internal void PrintCodeAnalysis(string filePath)
         {
+            if (string.IsNullOrWhiteSpace(filePath)) return;
+
             var fi = new FileInfo(filePath);
             var ats = _parser.Parse(fi);
             var output = _analyzer.GetSummury(ats);

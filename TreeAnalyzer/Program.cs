@@ -13,7 +13,7 @@ namespace CodeAnalyzer
         {
             if (args.Length == 0) return;
             var pathInput = args[0];
-            if (pathInput == null) return;
+            if (string.IsNullOrWhiteSpace(pathInput)) return;
 
             var host = CreateHost();
             var service = ActivatorUtilities.CreateInstance<AnalyzerService>(host.Services);

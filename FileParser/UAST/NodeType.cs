@@ -6,7 +6,6 @@
 
         ClassDeclaration,
         MethodDeclaration,
-        VarInitialization,
         IFStatement,
         VarAssignment
     }
